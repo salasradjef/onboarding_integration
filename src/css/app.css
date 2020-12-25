@@ -1,0 +1,164 @@
+#main {
+    font-family: 'Montserrat-Regular';
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    height: 100vh;
+}
+
+.on__steps {
+    background-color: #35A0EE;
+}
+
+.on__forms {
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+    height: 100%;
+
+    padding: 0 100px;
+}
+
+.form_group {
+    max-width: 562px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 36px;
+}
+
+.form_group>input {
+    outline-width: 0;
+    border: 0;
+    padding-bottom: 6px;
+    border-bottom: 2px #D5D9DC solid;
+}
+
+.form_group>input:focus {
+    transition: 0.2s;
+    border-bottom: 2px #2696E8 solid;
+}
+
+.form_group>label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A4AEB4;
+    padding-bottom: 4px;
+}
+
+.on__header {
+    display: flex;
+    justify-content: space-between;
+    color: #A4AEB4;
+    padding-top: 36px;
+    padding-bottom: 90px;
+
+}
+
+.on__header>h6 {
+
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.on__header>p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+
+}
+
+.on__header>p>span {
+    padding-left: 8px;
+    color: #2696E8;
+}
+
+.on__form>h1 {
+    font-family: 'Montserrat-Bold';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 12px;
+    color: #0B1D2E;
+}
+
+.on__form>h2 {
+    max-width: 530px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.02em;
+
+    color: #A4AEB4;
+    padding-bottom: 44px;
+
+}
+
+.on__form .policy {
+    padding-bottom: 37px;
+}
+
+.on__forms .policy h1 {
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    padding-bottom: 12px;
+    color: #0B1D2E;
+
+}
+
+.on__forms .policy p {
+    max-width: 530px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 141%;
+
+
+
+
+    color: #A4AEB4;
+    padding-bottom: 12px;
+}
+
+.on__forms .policy a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.02em;
+
+    color: #2696E8;
+
+}
+
+.on__forms .on__footer {
+display:flex;
+justify-content: space-between;
+
+}
+.on__forms .on__footer .left a {
+ text-decoration: none;
+ color:  #2696E8;
+}
+
+.on__forms .on__footer .right a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    padding: 12px;
+    background: red;
+
+}
